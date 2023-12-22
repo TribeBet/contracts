@@ -1,16 +1,16 @@
 ---
 compiled_package_info:
-  package_name: Event example
+  package_name: Examples
   address_alias_instantiation:
     Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
     core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
-    event: 62e9c96ed921cd3daf369d61851cbd88d69b2f696b58c7ef9f1d2f6a6a6743a9
+    mint_nft: e0b8e7fe69bc47569dd1e5e36d550a04bc45169c1cc4dd3b71658729b49fb7d0
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 8F06CE421DB5AC6A2744519923107021219639FEC5D6F8141DE67FB76CBD37F9
+  source_digest: 656ABAA1CCD91AC4144AA03180E67D8FCB45E46519FBB8E56EB75EDEA312EDC9
   build_flags:
     dev_mode: false
     test_mode: false
@@ -21,7 +21,7 @@ compiled_package_info:
     install_dir: ~
     force_recompilation: false
     additional_named_addresses:
-      event: 62e9c96ed921cd3daf369d61851cbd88d69b2f696b58c7ef9f1d2f6a6a6743a9
+      mint_nft: e0b8e7fe69bc47569dd1e5e36d550a04bc45169c1cc4dd3b71658729b49fb7d0
     architecture: ~
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
@@ -45,4 +45,5 @@ compiled_package_info:
 dependencies:
   - AptosFramework
   - AptosStdlib
+  - AptosToken
   - MoveStdlib
